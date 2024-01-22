@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate GPA"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Grade Input Section -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter Grade 1 :"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/grade1Input"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter Grade 2 :"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/grade2Input"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter Grade 3 :"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/grade3Input"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter Grade 4 :"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/grade4Input"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <!-- Button Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Calculate GPA Button -->
+        <Button
+            android:id="@+id/calculateGpaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAL GPA" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/backButtonMain3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK" />
+
+        <Button
+            android:id="@+id/btnResetButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+    <!-- Results Section -->
+    <!-- Points TextView where points will be programmatically set -->
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Points:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pointShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Credits:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/creditShow"
+            android:layout_width="276dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <!-- Credits TextView where credits will be programmatically set -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your GPA:"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/gpaShow"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <!-- GPA TextView where GPA will be programmatically set -->
+
+</LinearLayout>

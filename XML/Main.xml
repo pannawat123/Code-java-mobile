@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8E8E8"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="Main Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/btnCalculateGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE GRADE"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnCalculateVat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE VAT"
+
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnCalculateGpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE GPA"
+
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnShowGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW GALLERY"
+
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT PROGRAM"
+
+        android:padding="10dp"/>
+
+</LinearLayout>
